@@ -31,10 +31,16 @@
     <!-- Menú con botones para cambiar de imagen -->
     <div id="menu">
       <!-- Al hacer clic, se llama a la función cambiarImagen con la imagen 1 -->
-      <button onclick="cambiarImagen('imagen1.jpg')">Escena 1</button>
+      <button onclick="cambiarImagen('Interior_de_posgrado.jpg')">Escena 1</button>
 
       <!-- Al hacer clic, se cambia a la imagen 2 -->
-      <button onclick="cambiarImagen('imagen2.jpg')">Escena 2</button>
+      <button onclick="cambiarImagen('Exterior_de_posgrado.jpg')">Escena 2</button>
+
+      <!-- Al hacer clic, se cambia a la imagen 2 -->
+      <button onclick="cambiarImagen('Explanada.jpg')">Escena 3</button>
+
+      <!-- Al hacer clic, se cambia a la imagen 2 -->
+      <button onclick="cambiarImagen('Sala_A.jpg')">Escena 4</button>
     </div>
 
     <!-- Escena principal de A-Frame -->
@@ -42,7 +48,7 @@
       <!-- Componente tipo cielo (sky), donde se muestra la imagen 360° -->
       <!-- Tiene un ID para poder cambiar dinámicamente su imagen -->
       <!-- La rotación es opcional, aquí gira un poco el punto inicial de vista -->
-      <a-sky id="panorama" src="imagen1.jpg" rotation="0 -130 0"></a-sky>
+      <a-sky id="panorama" src="Interior_de_posgrado.jpg" rotation="0 -130 0"></a-sky>
     </a-scene>
 
     <!-- Script en JavaScript para cambiar la imagen panorámica -->
